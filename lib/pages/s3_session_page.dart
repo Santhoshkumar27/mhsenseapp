@@ -76,8 +76,8 @@ class _S3SessionPageState extends State<S3SessionPage> {
   }
 
   // ===== TEMP credentials for setup (replace with --dart-define in production) =====
-  static const String _AK_DEFAULT = 'AKIAQ2BOUJ5NUB3W337B';
-  static const String _SK_DEFAULT = 'RjiJf7A2QbOLbFQzlrLqqwLSyuapVmTf247+emW9';
+  static const String _AK_DEFAULT = '';
+  static const String _SK_DEFAULT = '';
   static const String _AK = String.fromEnvironment('S3_AK', defaultValue: _AK_DEFAULT);
   static const String _SK = String.fromEnvironment('S3_SK', defaultValue: _SK_DEFAULT);
 
